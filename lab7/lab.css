@@ -1,0 +1,41 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 10px solid blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left; 
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+tr:first-child {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-size: larger; 
+}
+
+
+tr:not(:first-child) td {
+    font-weight: bold;
+}
+
+td {
+    border-color: rgb(13, 255, 130); 
+}
