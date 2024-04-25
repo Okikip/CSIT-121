@@ -1,0 +1,18 @@
+body {
+    background-color: lightyellow; 
+    color: black; 
+}
+
+h1, h2, h3 {
+    border: 2px solid black; 
+    padding: 10px; 
+}
+
+
+ol, ul {
+    margin-left: 20px; 
+}
+
+#Input, #textera, #element, #option, #button {
+    margin-top: 20px; 
+}
