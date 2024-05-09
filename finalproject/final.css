@@ -1,0 +1,71 @@
+.intro {
+    background-image: url('intro.jpg');
+    background-size: cover;
+}
+
+.intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    transform: translate(-50%, -50%);
+    text-align: justify; 
+}
+
+.intro p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    max-width: 600px;
+    transform: translate(-50%, -50%);
+    text-align: justify; 
+    line-height: 3.0;
+}
+
+.display {
+    background-color: bisque;
+}
+
+.display h1 {
+    text-align: center; /* Center the heading */
+}
+
+.display img {
+    display: block; /* Ensure images are displayed as blocks */
+    margin: 0 auto; /* Center images horizontally */
+    width: 400px; 
+    height: 400px; 
+}
+
+.display nav {
+    background-color: black;
+    color: azure;
+}
+
+.ratings nav {
+    background-color: black;
+    color: azure;
+}
+
+.ratings select {
+    color: rgb(20, 14, 199);
+}
+
+.ratings {
+    background-color: blanchedalmond;
+}
+
+.feedback {
+    background-color: rgb(207, 201, 191);
+}
+
+.feedback nav {
+    background-color: black;
+    color: azure;
+}
+
+.feedback img {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
